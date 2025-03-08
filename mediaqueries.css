@@ -21,23 +21,6 @@
   #hamburger-nav {
     display: flex;
   }
-  
-  #theme-toggle-btn {
-    position: fixed;
-    border: none;
-    gap: 2rem;
-    right: 4rem; /* Adjust position as needed */
-     }
-  #theme-toggle-btn:hover {
-      color: var(--bg-color);
-      transform: scale(1.2)translateY(-5px);
-      background: var(--main-color);
-      box-shadow: 0 0 25px var(--main-color);
-      transition: 0.3s ease;
-  }
-  #theme-toggle-btn .fas {
-    font-size: 2rem;
-  }   
 
   #skills,
   .skills-details-container {
